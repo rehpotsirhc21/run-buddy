@@ -50,39 +50,21 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
 }
-/*footer css */
-footer {
-    background: #fce138;
-    width: 100%; 
-    padding: 40px 35px; 
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
 
-
-footer h2 {
-    
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-}
-
-footer div {
-    
-    line-height: 1.5;
-    text-align: right;
-}
-
-footer a {
-    color: #024e76;
-}
-
+/*general section styles */
 section{
     padding: 60px; 
-  
+  }
 
-}
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+   padding-bottom: 20px;
+    border-bottom:  3px solid;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 30%;
+    }
 /*Hero style*/
 .hero {
     background-image: url(../images/flipped-hero-image.jpeg);
@@ -157,9 +139,7 @@ section{
 
 /* style for what we do */
 
-.intro {
-    text-align: center;
-    }
+
 
 .intro p {
     line-height: 1.7;
@@ -167,24 +147,18 @@ section{
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 /*end style for what we do */
 
 /* what you do section style */
 
 .steps {
-    text-align: center;
+    
     background: #fce138;
 }
 
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom:  35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom:  3px solid;
-}
+
 
 .primary-border {
     border-color: #fce138;
@@ -222,7 +196,7 @@ section{
 /* trainers section */
 
 .trainers {
-    text-align: center;
+    
 }
 
 .trainer {
@@ -245,13 +219,7 @@ section{
     width: 65%;
 }
 
-.text-left {
-    text-align: left;
-    }
 
-.text-right {
-    text-align: right;
-}
 
 .trainer-bio h3 {
     font-size: 32px;
@@ -272,7 +240,7 @@ section{
 /*contact section */
 .contact {
     background: #024e76;
-    text-align: center;
+    
 }
 
 .contact-title {
@@ -312,3 +280,44 @@ section{
     color: #fce138;
 }
 
+/*footer css */
+footer {
+    background: #fce138;
+    width: 100%; 
+    padding: 40px 35px; 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+footer h2 {
+    
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #024e76;
+}
+
+/*general formatting classes*/
+
+.text-left {
+    text-align: left;
+    }
+
+.text-right {
+    text-align: right;
+}
+
+.flex-row {
+    display: flex;
+}
