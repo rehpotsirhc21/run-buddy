@@ -10,5 +10,5 @@ A website that offers fitness training services
 ## Website 
 https://rehpotsirhc21.github.io/run-buddy/
 
-## Contrabution
+## Contribution
 Made with ❤️ by Christopher Langner 
