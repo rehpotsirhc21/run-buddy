@@ -13,4 +13,4 @@ https://rehpotsirhc21.github.io/run-buddy/
 ## Contribution
 Made with ❤️ by Christopher Langner 
 
-# Run Buddy Inc.
+### ©️2019 Run Buddy, Inc
