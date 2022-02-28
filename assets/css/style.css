@@ -98,7 +98,7 @@ section{
 
 
 .hero-form {
-    border: 3px solid --secondary-color;
+    border: 3px solid var(--secondary-color);
     background-color: rgba(252, 225, 56, 0.80);
     padding: 20px; 
     width: 40%;
