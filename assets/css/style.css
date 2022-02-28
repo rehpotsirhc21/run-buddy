@@ -121,7 +121,7 @@ section{
 }
 
 .form-input {
-    border: 1px solid --secondary-color;
+    border: 1px solid var(--secondary-color);
     border-radius: 10px;
     display: block;
     padding: 7px 15px ;
@@ -181,7 +181,7 @@ section{
     height: 20px;
     width: 20px;
     background: rgba(255,255,255,0.75);
-    border: 1px solid --secondary-color;
+    border: 1px solid var(--secondary-color);
     position: absolute;
     top: -4px;
     left: -30px;
@@ -200,15 +200,15 @@ section{
     position: absolute;
     left: -29px;
     top: -3px;
-    background-image: radial-gradient(circle, --terttiary-color, --secondary-color);
+    background-image: radial-gradient(circle, var(--terttiary-color), var(--secondary-color));
 }
 
 .checkbox-wrapper label::after {
     content: "";
     height: 6px;
     width: 14px;
-    border-left: 2px solid --secondary-color;
-    border-bottom: 2px solid --secondary-color;
+    border-left: 2px solid var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
     position: absolute;
     left: -26px;
     top: 1px;
@@ -306,7 +306,7 @@ section{
 }
 
 .step:not(:last-child){
-    border-bottom: 1px solid --terttiary-color;
+    border-bottom: 1px solid var(--terttiary-color);
 }
 /* end what would you do css */
 
@@ -408,7 +408,7 @@ section{
 }
 
 .contact-form input, .contact-form textarea {
-    border: 1px solid --secondary-color; 
+    border: 1px solid var(--secondary-color); 
     display: block;
     padding: 7px 15px;
     font-size: 16px;
