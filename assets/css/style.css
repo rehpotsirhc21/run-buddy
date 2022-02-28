@@ -306,7 +306,7 @@ section{
 }
 
 .step:not(:last-child){
-    border-bottom: 1px solid --terttiary-color;
+    border-bottom: 1px solid var(--terttiary-color);
 }
 /* end what would you do css */
 
